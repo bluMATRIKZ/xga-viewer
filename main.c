@@ -88,7 +88,7 @@ int main(int argc, char* argv[]) {
     int width, height;
     uint8_t* pixels = malloc(MAX_PIXELS);
     if (!pixels || !load_xga(argv[1], pixels, &width, &height)) {
-        fprintf(stderr, "Failed to load XGA file\n");
+        fprintf(stderr, "Not Support!\n");
         return 1;
     }
 
